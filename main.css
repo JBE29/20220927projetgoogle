@@ -1,0 +1,23 @@
+*
+{background-color: white;}
+
+.header{
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration:underline;
+}
+.gmail{
+
+}
+
+.footer{
+    align-self:flex-end ;
+    background-color:#e3e3e358 ;
+}
