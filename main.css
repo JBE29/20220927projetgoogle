@@ -1,23 +1,71 @@
-*
-{background-color: white;}
-
 .header{
+    color: black;
     display:flex;
     justify-content:flex-end;
-    align-items:flex-end;
+    align-items:center;}
 
-}
 a{
-    text-decoration: none;
-}
+    color: black;
+    text-decoration: none;}
 a:hover{
-    text-decoration:underline;
-}
-.gmail{
+    text-decoration:underline;}
 
+
+
+
+.gmail{
+    padding: 50px;}
+
+.connexion{
+    background-color: #1a73e8;
+    color: #ffffffff;
+    border-style: none;
+    padding: 3px 0px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    height: 30px;
+    width: 120px;
+    display: flex;
+    justify-content:center;
+    align-items:center;}
+
+main{
+    margin-top: 10%;
+    display:flex;
+    justify-content: center;
+   
 }
+.blocdumil{
+    background-color: white;
+    display:flex;
+    flex-direction:column;}
+
+.search{
+    border-style:initial;
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 30px;
+    width: 500px;
+    outline:auto;
+    text-align:center;
+    display:flex;
+    justify-content:center}
+    
+
+.boutonrech{border-style:none}
+.chance{border-style:none}
+
+.pub{
+    display:flex;
+    flex-direction: row;
+    align-items: center;}
+.bleu{
+    color: #0e4183;}
 
 .footer{
-    align-self:flex-end ;
-    background-color:#e3e3e358 ;
-}
+    position:fixed;
+    bottom: 0%;
+    color: black;
+    align-content:flex-end ;
+    background-color:#e3e3e358 ;}
